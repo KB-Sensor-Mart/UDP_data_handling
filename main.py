@@ -23,7 +23,7 @@ class UDPServer:
             self.sock.bind((self.server_ip, self.server_port))  # Bind the socket to IP and port
             self.logger.info(f"UDP server started on {self.server_ip}:{self.server_port}")
             print(f"UDP server started on {self.server_ip}:{self.server_port}")
-            print("To stop server press (Ctrl+X)")
+            print("To stop server press (Ctrl+C)")
         except Exception as e:
             self.logger.error(f"Failed to bind the UDP socket: {e}")
             raise
@@ -81,7 +81,7 @@ class UDPServer:
 
 if __name__ == "__main__":
     # Set IP, Port, and JSON file name
-    server_ip = "192.168.31.102"
+    server_ip = "192.168.31.131"
     server_port = 62200
     json_file = "udp_data.json"
     
