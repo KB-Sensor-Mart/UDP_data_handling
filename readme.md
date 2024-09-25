@@ -20,7 +20,7 @@ This project implements a UDP server that listens for incoming UDP messages, sto
 ### Installation
 
 1. **Clone the Repository**:
-   git clone https://github.com/your-username/udp-server-data-logger.git
+   git clone https://github.com/KB-Sensor-Mart/UDP_data_handling.git
    cd udp-server-data-logger
 2. **Create virtual environment**:
     python -m venv env
