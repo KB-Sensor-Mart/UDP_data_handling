@@ -82,7 +82,7 @@ class UDPServer:
 if __name__ == "__main__":
     # Set IP, Port, and JSON file name
     server_ip = "192.168.31.131"
-    server_port = 62200
+    server_port = 8000
     json_file = "udp_data.json"
     
     # Create and start the UDP server
